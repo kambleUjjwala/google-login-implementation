@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.card{
+  width: 40%;
+  margin-top: 7em;
+    padding: 2em;
+    box-shadow: 7px 3px 12px 6px #dcdcdc;
+    border-bottom: 5px solid red;
+}
+.btnclass{
+  border: none;
+  padding: 1% 5%;
+  background: black;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-left: 9%;
+}
+.labelname{
+  padding: 2% 3%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.formtitle{
+  font-size: 25px;
+  text-align: center;
+  margin-left: 1%;
+  margin-bottom: 8%;
+ 
+}
+.formtitle::after{
+  content: '';
+  border-bottom: 2px solid red;
+    width: 11%;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+
+}
+.useraccount{
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+.homeheading{
+  text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 4em;
+}
+.lastbtn{
+  margin-left: 40%;
+    margin-top: 2%;
+}
+.btnstylesignin{
+  border: none;
+  padding: 1% 5%;
+  background: #ff1e1e;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-left: 9%;
+}
