@@ -85,7 +85,7 @@ async function signIn(){
   formType === 'confirmSignUp ' && (
     <div>
        <input name="authCode"  onChange={onChange} placeholder ="confirmation Code" />
-      <button onclick={confirmSignUp}>Confirm Sign Up</button>
+      <button onclick={confirmSignUp}>Confirm SignUp</button>
       
 
       </div>
